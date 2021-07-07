@@ -17,4 +17,22 @@ nmap -sC -sV -oN scan1 -vv 10.10.180.237
 
 ![image](https://user-images.githubusercontent.com/12968503/124766503-e3e72c80-df2e-11eb-8e1f-3930269d2e76.png)
 
+# Step2:  SMB Enum
+_./smbmap.py -H 10.10.180.237_  
+
+![image](https://user-images.githubusercontent.com/12968503/124768569-af747000-df30-11eb-9c89-b83528b1e707.png)
+
+_smbclient -L 10.10.180.237_  
+
+![image](https://user-images.githubusercontent.com/12968503/124768765-daf75a80-df30-11eb-82dd-f598d8e4f15d.png)
+
+_smbclient //10.10.180.237/Anonymous_  
+
+![image](https://user-images.githubusercontent.com/12968503/124768951-fd897380-df30-11eb-9f9a-ae2e89bcf70e.png)
+
+Found a staff.txt on the Anon share
+
+![image](https://user-images.githubusercontent.com/12968503/124767676-eeee8c80-df2f-11eb-83d0-47018270a5f2.png)
+
+
 
