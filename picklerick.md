@@ -6,7 +6,7 @@ _nmap -sC -sV -oN scan1 -vv (an ip here)_
 
 _nikto -h http://the-ip-here_  
 _dirb http://the-ip-here_  
-_gobuster -u http://the-ip-here -w usr/share/wordlists/dirb/wordlist for dirb  
+_gobuster -u http://the-ip-here -w usr/share/wordlists/dirb/wordlist for dirb_  
 (will update with correct path)
 
 Look at the source of the web page, there is a username hidden.
