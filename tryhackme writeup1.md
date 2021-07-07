@@ -1,6 +1,6 @@
 # Basic Pentesting box writeup from tryhackme
 
-# Step1 : Nmap scan 
+# Step 1 : Nmap scan 
 nmap -sC -sV -oN scan1 -vv 10.10.180.237
 
 ![Screenshot at 2021-07-07 13-56-35](https://user-images.githubusercontent.com/12968503/124764735-2d367c80-df2d-11eb-9e2c-a4d3bcb96cf7.png)
@@ -17,7 +17,7 @@ nmap -sC -sV -oN scan1 -vv 10.10.180.237
 
 ![image](https://user-images.githubusercontent.com/12968503/124766503-e3e72c80-df2e-11eb-8e1f-3930269d2e76.png)
 
-# Step2:  SMB Enum
+# Step 2:  SMB Enum
 _./smbmap.py -H 10.10.180.237_  
 
 ![image](https://user-images.githubusercontent.com/12968503/124768569-af747000-df30-11eb-9c89-b83528b1e707.png)
@@ -34,5 +34,6 @@ Found a staff.txt on the Anon share
 
 ![image](https://user-images.githubusercontent.com/12968503/124767676-eeee8c80-df2f-11eb-83d0-47018270a5f2.png)
 
+# Step 3: Web Enum
 
 
