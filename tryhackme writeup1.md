@@ -70,5 +70,5 @@ Look in kay's directory for the ssh keys and grab them.
 
 Can't use them to log in yet because they have a passphrase, so use ssh2john
 
-
+Save the hash to a text file and use it with john to obtain the passphrase.
 
