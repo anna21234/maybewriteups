@@ -19,3 +19,10 @@ To view the contents of files use grep (cat and head are disabled)
 _grep . clue.txt_
 
 Obtain the first ingredient this way,
+
+
+## Step 3 : Reverse Shell time
+
+Grab a Python3 reverse shell and paste it into the command panel
+
+Catch the shell with a net cat listener on your attacker machine
