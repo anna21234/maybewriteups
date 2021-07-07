@@ -15,7 +15,7 @@ Robots.txt contains the password for the login page
 Use the password and the username in the source code to login to the login.php page
 There, is a command running panel.
 
-To view the contents of files use grep (cat and head are disabled)
+To view the contents of files use grep (cat and head are disabled)  
 _grep . clue.txt_
 
 Obtain the first ingredient this way,
