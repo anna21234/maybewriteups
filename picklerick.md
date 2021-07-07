@@ -26,3 +26,6 @@ Obtain the first ingredient this way,
 Grab a Python3 reverse shell and paste it into the command panel
 
 Catch the shell with a net cat listener on your attacker machine
+
+Stabilise the shell with these commands  
+![image](https://user-images.githubusercontent.com/12968503/124804662-75b46100-df52-11eb-8607-432f12fb2d18.png)
