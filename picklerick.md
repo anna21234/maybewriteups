@@ -11,8 +11,8 @@ _gobuster -u http://the-ip-here -w usr/share/wordlists/dirb/wordlist for dirb_
 
 Look at the source of the web page, there is a username hidden.
 
-Robots.txt contains the password for the login page
-Use the password and the username in the source code to login to the login.php page
+Robots.txt contains the password for the login page  
+Use the password and the username in the source code to login to the login.php page  
 There, is a command running panel.
 
 To view the contents of files use grep (cat and head are disabled)  
