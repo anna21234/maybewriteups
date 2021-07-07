@@ -11,4 +11,5 @@ _gobuster -u http://the-ip-here -w usr/share/wordlists/dirb/wordlist for dirb
 
 Look at the source of the web page, there is a username hidden.
 
+Robots.txt doesn't contain anything
 
