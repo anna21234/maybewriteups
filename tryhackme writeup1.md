@@ -66,5 +66,9 @@ _hydra -t 4 -l jan -P /usr/share/wordlists/rockyou.txt -vV 10.10.180.237 ssh_
 
 ## Step 4: Login to SSH as Jan
 
+Look in kay's directory for the ssh keys and grab them.
+
+Can't use them to log in yet because they have a passphrase, so use ssh2john
+
 
 
