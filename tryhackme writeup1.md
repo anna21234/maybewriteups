@@ -74,7 +74,7 @@ Save the hash to a text file and use it with john to obtain the passphrase.
 
 ## To get root
 
-Login as Kay with the ssh key and passphrase
-View the contents of pass.bak
-Run sudo -l and enter the password in the pass.bak file
+Login as Kay with the ssh key and passphrase  
+View the contents of pass.bak  
+Run sudo -l and enter the password in the pass.bak file  
 Kay has full sudo permissions so to get root, run sudo su
