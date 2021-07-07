@@ -29,3 +29,9 @@ Catch the shell with a net cat listener on your attacker machine
 
 Stabilise the shell with these commands  
 ![image](https://user-images.githubusercontent.com/12968503/124804662-75b46100-df52-11eb-8607-432f12fb2d18.png)
+
+Once inside the shell run sudo -l to check for sudo privs
+
+## To get root
+To get root all you have to do is sudo su and you get a root shell
+
