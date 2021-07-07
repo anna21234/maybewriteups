@@ -78,3 +78,6 @@ Login as Kay with the ssh key and passphrase
 View the contents of pass.bak  
 Run sudo -l and enter the password in the pass.bak file  
 Kay has full sudo permissions so to get root, run sudo su
+
+![image](https://user-images.githubusercontent.com/12968503/124779314-958b5b00-df39-11eb-81f4-d29976faaa68.png)
+
