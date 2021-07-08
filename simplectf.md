@@ -23,7 +23,7 @@ _gobuster dir -u http://the-ip-here --wordlist /usr/share/wordlists/dirb/common.
 ![image](https://user-images.githubusercontent.com/12968503/124927672-cda4a380-dff6-11eb-9aa4-87e0b61de8a4.png)
 
 According to the web enum the site is using a Simple CMS for their webserver
-Opening the address in the browser
+![image](https://user-images.githubusercontent.com/12968503/124927995-1f4d2e00-dff7-11eb-9fba-59cdb6494766.png)
 
 
 ## Step 3: Exploit DB
