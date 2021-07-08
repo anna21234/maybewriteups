@@ -37,4 +37,19 @@ searchsploit (any service and version number you want to look up)
 Now run the exploit against the simple directory and you should get the credentials
 
 ## Step 4: Login to SSH
+Once logged in look around  
+Check for SUID files with:  
+_find / -perm -u=s -type f 2>/dev/null_  
+Nothing in here
+
+Check for sudo privs with sudo -l  
+![image](https://user-images.githubusercontent.com/12968503/124932230-cc757580-dffa-11eb-9caf-4a4e6ccfa87d.png)
+
+As it turns out the user can run Vim as root
+
+## To get Root 
+open vim by using:  
+sudo vim -c ':!/bin/sh'
+
+![image](https://user-images.githubusercontent.com/12968503/124931837-7e607200-dffa-11eb-9b6d-adb7af586b5f.png)
 
