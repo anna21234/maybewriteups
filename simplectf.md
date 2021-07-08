@@ -33,3 +33,8 @@ We now have the version number of the CMS
 searchsploit (any service and version number you want to look up)
 
 ![image](https://user-images.githubusercontent.com/12968503/124928440-7eab3e00-dff7-11eb-9ae0-f39ad08b551c.png)
+
+Now run the exploit against the simple directory and you should get the credentials
+
+## Step 4: Login to SSH
+
