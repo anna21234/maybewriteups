@@ -25,6 +25,11 @@ _gobuster dir -u http://the-ip-here --wordlist /usr/share/wordlists/dirb/common.
 According to the web enum the site is using a Simple CMS for their webserver
 ![image](https://user-images.githubusercontent.com/12968503/124927995-1f4d2e00-dff7-11eb-9fba-59cdb6494766.png)
 
+![image](https://user-images.githubusercontent.com/12968503/124928133-43a90a80-dff7-11eb-8fad-21ee9e0d9f58.png)
+
+We now have the version number of the CMS
 
 ## Step 3: Exploit DB
 searchsploit (any service and version number you want to look up)
+
+![image](https://user-images.githubusercontent.com/12968503/124928440-7eab3e00-dff7-11eb-9ae0-f39ad08b551c.png)
