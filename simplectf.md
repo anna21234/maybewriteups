@@ -14,8 +14,17 @@ _nmap -sC -sV (an ip here)_
 
 ## Step 2: Web Enum
 _nikto -h http://the-ip-here_  
+![image](https://user-images.githubusercontent.com/12968503/124926936-fb3d1d00-dff5-11eb-85ca-f4200a26c2b8.png)
+
 _dirb http://the-ip-here_  
-_gobuster -u http://the-ip-here -w usr/share/wordlists/dirb/wordlist for dirb_  
+![image](https://user-images.githubusercontent.com/12968503/124927137-317a9c80-dff6-11eb-820a-bc51402c7a72.png)
+
+_gobuster dir -u http://the-ip-here --wordlist /usr/share/wordlists/dirb/common.txt_  
+![image](https://user-images.githubusercontent.com/12968503/124927672-cda4a380-dff6-11eb-9aa4-87e0b61de8a4.png)
+
+According to the web enum the site is using a Simple CMS for their webserver
+Opening the address in the browser
+
 
 ## Step 3: Exploit DB
 searchsploit (any service and version number you want to look up)
