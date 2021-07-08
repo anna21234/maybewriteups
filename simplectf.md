@@ -1,7 +1,16 @@
 # Simple CTF from tryhackme
 
 ## Step 1: Nmap scan
-_nmap -sC -sV -oN scan1 -vv (an ip here)_
+_nmap (an ip here)_  
+![image](https://user-images.githubusercontent.com/12968503/124926209-26733c80-dff5-11eb-9ab6-4e559e7779c8.png)
+
+_nmap -sC -sV (an ip here)_  
+![image](https://user-images.githubusercontent.com/12968503/124926456-73571300-dff5-11eb-8bec-40eee45d4545.png)
+
+
+
+
+
 
 ## Step 2: Web Enum
 _nikto -h http://the-ip-here_  
