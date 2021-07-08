@@ -53,3 +53,6 @@ sudo vim -c ':!/bin/sh'
 
 ![image](https://user-images.githubusercontent.com/12968503/124931837-7e607200-dffa-11eb-9b6d-adb7af586b5f.png)
 
+## Bonus
+If you look in FTP you can get a text file called ForMitch  
+![image](https://user-images.githubusercontent.com/12968503/124933220-a0a6bf80-dffb-11eb-93ff-55674c025b58.png)
