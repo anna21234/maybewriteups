@@ -9,7 +9,7 @@ _nmap -sC -sV (an ip here)_
 
 ## To get user
 
-Just ook up coudb web inteface and it happens to be _utils  
+Just look up couchdb web inteface and it happens to be _utils  
 
 Find the db called secret  
 
